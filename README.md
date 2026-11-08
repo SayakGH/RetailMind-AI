@@ -83,6 +83,11 @@ The champion pipeline is persisted at `models/champion_churn_pipeline.joblib` al
 
 > Note: The baseline Logistic Regression recorded a higher recall (`0.5589`), but it was evaluated on a different 75/25 split. The comparison above is strictly between the three challengers on the shared 80/20 hold-out.
 
+### Day‑3 vs Current Champion (Random Forest vs XGBoost)
+
+- Day‑3 champion (`churn_v3.joblib`, Random Forest): recall 0.8209, ROC‑AUC 0.8456.
+- Current champion (`churn_pipeline_v4.joblib`, XGBoost): recall 0.5668, ROC‑AUC 0.8627 (trained on all data, so hold‑out score is optimistic).
+
 ## Setup
 
 1. Create and activate a virtual environment:
