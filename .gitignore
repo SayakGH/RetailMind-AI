@@ -46,9 +46,18 @@ Thumbs.db
 *.swo
 
 # Data and models (uncomment to exclude large/generated artifacts)
-# data/*.csv
-# models/*.joblib
-# models/*.pkl
+data/*.csv
+models/*.joblib
+models/*.pkl
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.webp
+*.ico
 
 # Logs and coverage
 *.log
