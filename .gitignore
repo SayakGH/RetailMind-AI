@@ -64,3 +64,5 @@ models/*.pkl
 .pytest_cache/
 .coverage
 htmlcov/
+data/
+.venv/
